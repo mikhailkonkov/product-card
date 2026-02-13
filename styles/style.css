@@ -3,12 +3,11 @@
   box-sizing: border-box;
 }
 
-.background{
+.background {
   background-image: url(/images/background-img.png);
 }
 
-
-.top-title{
+.top-title {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
@@ -24,12 +23,12 @@
   padding-bottom: 150px;
 }
 
-
 .product-card-wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 35px;
+  padding-bottom: 50px;
 }
 
 .product-card {
@@ -45,7 +44,6 @@
   width: 290px;
 }
 
-
 .product-card__for-skin {
   font-weight: 400;
   font-size: 12px;
@@ -55,15 +53,13 @@
   margin: 20px 0 0 0;
 }
 
-
-.product-card__title{
+.product-card__title {
   font-weight: 700;
   font-size: 20px;
   line-height: 27px;
   color: #515076;
   margin: 5px 0 5px 0;
 }
-
 
 .product-card__descr {
   font-weight: 400;
@@ -73,13 +69,11 @@
   margin: 5px 0 15px 0;
 }
 
-
 .product-card__composition {
-list-style: circle;
-padding-left: 15px;
-margin-top: 5px;
+  list-style: circle;
+  padding-left: 15px;
+  margin-top: 5px;
 }
-
 
 .product-card__text {
   font-weight: 400;
@@ -87,7 +81,6 @@ margin-top: 5px;
   line-height: 18px;
   color: #515076;
 }
-
 
 .product-card__item {
   font-weight: 400;
@@ -97,20 +90,17 @@ margin-top: 5px;
   margin-bottom: 5px;
 }
 
-
 .product-card__price-wrapper {
   display: flex;
   margin: 25px 0 0 0 ;
 }
 
-
-.product-card__price-text{
+.product-card__price-text {
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
   color: #515076;
 }
-
 
 .product-card__price {
   font-weight: 400;
