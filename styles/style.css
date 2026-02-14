@@ -1,0 +1,111 @@
+* {
+  font-family: Montserrat;
+  box-sizing: border-box;
+}
+
+.background {
+  background-image: url("/images/dandelion-bg.png");
+}
+
+.top-title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 78px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #515076;
+  justify-content: center;
+  margin-top: 150px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.product-card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 35px;
+  padding-bottom: 50px;
+}
+
+.product-card {
+  width: 340px;
+  min-height: 573px;
+  background-color: #F7F7FA;
+  margin-right: 20px;
+  padding: 20px 0 0 25px;
+}
+
+.product-card__img {
+  display: block;
+  width: 290px;
+}
+
+.product-card__for-skin {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #A5A3B9;
+  margin: 20px 0 0 0;
+}
+
+.product-card__title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #515076;
+  margin: 5px 0 5px 0;
+}
+
+.product-card__descr {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  color: #515076;
+  margin: 5px 0 15px 0;
+}
+
+.product-card__composition {
+  list-style: circle;
+  padding-left: 15px;
+  margin-top: 5px;
+}
+
+.product-card__text {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  color: #515076;
+}
+
+.product-card__item {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  color: #515076;
+  margin-bottom: 5px;
+}
+
+.product-card__price-wrapper {
+  display: flex;
+  margin: 25px 0 0 0 ;
+}
+
+.product-card__price-text {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #515076;
+}
+
+.product-card__price {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #515076;
+  padding-left: 150px;
+}
