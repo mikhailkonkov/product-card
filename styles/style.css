@@ -4,7 +4,7 @@
 }
 
 .background {
-  background-image: url(/images/dandelion-bg.png);
+  background-image: url("/images/dandelion-bg.png");
 }
 
 .top-title {
