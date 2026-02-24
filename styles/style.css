@@ -112,3 +112,31 @@
   color: #515076;
   padding-left: 150px;
 }
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.change-color-button {
+  background-color: #ff6347;
+  width: 150px;
+}
+
+.change-color-button.active {
+  background-color: #ffa500;
+}
+
+#recolor-first-card-button {
+  width: 150px;
+}
+
+#recolor-all-card-button {
+width: 150px;
+}
+
+#open-google-button {
+width: 150px;
+}
