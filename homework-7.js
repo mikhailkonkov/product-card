@@ -37,9 +37,9 @@ console.log(reversClothingBrands);
 const domensCom = comments.filter(comment => comment.email.includes('.com'));
 console.log(domensCom);
 
-// 5. 
+// 5.
 const updatedComments = comments.map(comment => {
-  return {...comment, postId: comment.id <= 5 ? 1 : 2}
+  return {...comment, postId: comment.id <= 5 ? 2 : 1}
 });
 console.log(updatedComments);
 
@@ -76,3 +76,6 @@ console.log(emailsReduce);
 // 9.
 const emailsString = emailsMap.join(", ");
 console.log(emailsString);
+
+const emailsString2 = emailsMap.toString();
+console.log(emailsString2);

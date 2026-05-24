@@ -76,4 +76,4 @@ export const comments = [
     email: "Veronica_Goodwin@timmothy.net",
     body: "ut dolorum nostrum id quia aut est\nfuga est inventore vel eligendi explicabo quis consectetur\naut occaecati repellat id natus quo est\nut blanditiis quia ut vel ut maiores ea"
   }
-]
+];
