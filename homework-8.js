@@ -41,17 +41,17 @@ console.log(productCardsTitleAndDesc);
 function getCardsCount() {
   let count;
 
-  while (isNaN(count) || count < 1 || count > 5) {
-    const input = prompt("Сколько карточек отобразить? От 1 до 5");
+  while (isNaN(count) || count < 1 || count > 5 || !Number.isInteger(count)) {
+    const input = prompt("Сколько карточек отобразить? От 1 до 5 (целое число)");
     
     if (input === null) {
       return 0; 
     }
 
-    count = parseInt(input);
+    count = Number(input);
 
-    if (isNaN(count) || count < 1 || count > 5) {
-      alert("Ой, тут какая-то ошибка в вводе! Пожалуйста, введите число от 1 до 5.");
+    if (isNaN(count) || count < 1 || count > 5 || !Number.isInteger(count)) {
+      alert("Ой, тут какая-то ошибка! Пожалуйста, введите ЦЕЛОЕ число от 1 до 5.");
     }
   }
 
