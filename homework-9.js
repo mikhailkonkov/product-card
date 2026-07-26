@@ -50,6 +50,7 @@ registerForm.addEventListener('submit', function (event) {
 
   if (!registerForm.checkValidity()) {
     alert('Регистрация отклонена: форма заполнена неверно!');
+    return;
   }
 
   user = {
