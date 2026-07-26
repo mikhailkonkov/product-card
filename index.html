@@ -27,8 +27,7 @@
 
       <template id="product-card-template">
         <div class="product-card">
-          <img src="" alt="" width="290px" height="245px"
-            class="product-card__img">
+          <img src="" alt="" width="290px" height="245px" class="product-card__img">
           <p class="product-card__for-skin"></p>
           <h3 class="product-card__title"></h3>
           <p class="product-card__descr"></p>
@@ -43,7 +42,87 @@
 
     </div>
   </div>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <address class="footer-brands">
+        <h2>Product Cards</h2>
+        <p>У нас лучшие продукты для кожи!</p>
+        <div class="social-icons">
+          <a href="https://t.me/#" target="_blank" class="social-link">
+            <img src="https://cdn.simpleicons.org/telegram/ffffff" alt="Telegram" width="24" height="24">
+          </a>
+          <a href="https://vk.com/#" target="_blank" class="social-link">
+            <img src="https://cdn.simpleicons.org/vk/ffffff" alt="VK" width="24" height="24">
+          </a>
+        </div>
+      </address>
+
+      <section class="footer-subscribe">
+        <h3>Подпишись на наши акции:</h3>
+
+        <div class="subscribe-block">
+          <form id="subscribe-form">
+            <input type="email" placeholder="Введите email">
+            <button type="submit">Подписаться</button>
+          </form>
+          <button type="button" id="open-modal-btn">Регистрация</button>
+        </div>
+      </section>
+
+      <nav class="footer-links">
+        <h3>Быстрые ссылки</h3>
+        <ul>
+          <li><a href="#">Главная</a></li>
+          <li><a href="#">Магазин</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="footer-bottom">
+      <hr>
+      <p>www.product-cards.com©all right reserve</p>
+    </div>
+  </footer>
+
+  <div class="modal">
+    <div class="modal-content">
+      <button class="close-modal-btn">&times;</button>
+      <h2>Регистрация</h2>
+
+      <form id="register-form">
+        <div class="form-group">
+          <label for="reg-firstname">Имя:</label>
+          <input type="text" id="reg-firstname" required placeholder="Иван">
+        </div>
+
+        <div class="form-group">
+          <label for="reg-lastname">Фамилия:</label>
+          <input type="text" id="reg-lastname" required placeholder="Иванов">
+        </div>
+
+        <div class="form-group">
+          <label for="reg-birthdate">Дата рождения:</label>
+          <input type="date" id="reg-birthdate">
+        </div>
+
+        <div class="form-password">
+          <label for="reg-password">Пароль</label>
+          <input type="password" id="reg-password" required placeholder="Придумайте пароль">
+        </div>
+
+        <div class="form-password">
+          <label for="reg-password-confirm">Пароль</label>
+          <input type="password" id="reg-password-confirm" required placeholder="Повторите пароль">
+        </div>
+        <button type="submit" class="submit-btn">Создать аккаунт</button>
+      </form>
+
+    </div>
+  </div>
   <script type="module" src="./homework-8.js"></script>
+  <script type="module" src="./homework-9.js"></script>
 </body>
 
 </html>

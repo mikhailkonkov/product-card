@@ -95,7 +95,7 @@
 
 .product-card__price-wrapper {
   display: flex;
-  margin: 25px 0 0 0 ;
+  margin: 25px 0 0 0;
 }
 
 .product-card__price-text {
@@ -134,9 +134,275 @@
 }
 
 #recolor-all-card-button {
-width: 150px;
+  width: 150px;
 }
 
 #open-google-button {
-width: 150px;
+  width: 150px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.footer {
+  background-color: #22252a;
+  color: #ffffff;
+  padding: 60px 0 30px 0;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer-links h3 {
+  font-weight: normal;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.footer-brands p {
+  font-size: 14px;
+}
+
+.footer-links a {
+  color: #ffffff;
+  text-decoration: none;
+  opacity: 0.8;
+  transition: opacity 0.3;
+}
+
+.footer-links a:hover {
+  opacity: 1;
+}
+
+.footer-subscribe h3 {
+  text-align: center;
+  font-weight: normal;
+}
+
+#subscribe-form input {
+  background-color: #2d3138;
+  border: 1px solid #444b54;
+  border-radius: 4px;
+  color: #ffffff;
+  padding: 10px 15px;
+  font-size: 14px;
+  outline: none;
+  width: 200px;
+  transition: border-color 0.3s;
+}
+
+#subscribe-form input:focus {
+  border-color: #007bff;
+}
+
+#subscribe-form button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-left: 8px;
+  transition: background-color 0.3s;
+}
+
+#subscribe-form button:hover {
+  background-color: #0056b3;
+}
+
+.footer-bottom {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.footer-bottom hr {
+  border: none;
+  border-top: 1px solid #444b54;
+  margin-bottom: 20px;
+}
+
+.footer-bottom p {
+  font-size: 14px;
+  opacity: 0.6;
+  margin: 0;
+}
+
+.modal {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rigba(0, 0. 0. 0.6);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal.modal-showed {
+  display: flex;
+}
+
+.modal-content {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+  position: relative;
+  color: #333333;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal.modal-showed {
+  display: flex;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 420px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  position: relative;
+  box-sizing: border-box;
+}
+
+.close-modal-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #888;
+  line-height: 1;
+}
+
+.close-modal-btn:hover {
+  color: #000;
+}
+
+.modal-content h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.form-group,
+.form-password {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.form-group label,
+.form-password label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #444;
+}
+
+.form-group input,
+.form-password input {
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.form-group input:focus,
+.form-password input:focus {
+  border-color: #007bff;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.2s;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
+
+#open-modal-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  margin: 15px;
+  min-width: 130px;
+  margin: 0;
+  margin-top: 12px;
+  grid-column: 2;
+  display: block;
+  margin-left: auto;
+  margin-top: 8px;
+}
+
+.subscribe-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8px;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  justify-content: center;
+}
+
+#subscribe-form {
+  display: flex;
+  gap: 10px;
+  grid-column: 1 / -1;
 }
